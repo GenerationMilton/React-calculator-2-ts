@@ -47,6 +47,7 @@ function App() {
             tip={tip}
           />
 
+
         </div>
       </main>
     </>
