@@ -17,8 +17,9 @@ function App() {
 
       <main className=" max-w-7xl mx-auto py-20 grid md:grid-cols-2">
         <div className="p-5">
-          <h2 className="text-4 font-black">Menú</h2>
-          <div className="space-y-3 mt-10">
+          <h2 className="font-black text-4xl">Menú</h2>
+
+          <div className="mt-10 space-y-3 ">
             {menuItems.map((item) => (
               <MenuItem 
               key={item.id} 
